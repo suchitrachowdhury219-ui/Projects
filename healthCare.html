@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Health Assistant</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f7f9fc;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.login-btn {
+  background: #1e88e5;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #555;
+}
+
+/* Action Cards */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.card button {
+  margin-top: 10px;
+  background: #1e88e5;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+/* Chat Preview */
+.chat-preview {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.chat-box {
+  max-width: 500px;
+  margin: 20px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.user-msg {
+  background: #e3f2fd;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.ai-msg {
+  background: #f1f8e9;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Doctors */
+.doctors {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.doctor-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.doctor {
+  background: white;
+  padding: 15px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+    </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar">
+  <h2>AI Healthcare Assistant</h2>
+  <button class="login-btn">Login</button>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Your Medical History. One Intelligent Guide.</h1>
+  <p>Continuity, guidance, and care navigation powered by AI.</p>
+</section>
+
+<!-- Action Cards -->
+<section class="actions">
+  <div class="card">
+    <h3>📂 Medical History Vault</h3>
+    <p>Upload prescriptions and reports securely.</p>
+    <button>Upload Records</button>
+  </div>
+
+  <div class="card">
+    <h3>💬 AI Symptom Assistant</h3>
+    <p>Get safe guidance based on your history.</p>
+    <button>Chat with AI</button>
+  </div>
+
+  <div class="card">
+    <h3>🏥 Find Right Doctor</h3>
+    <p>Get matched with the correct specialist.</p>
+    <button>Find Doctor</button>
+  </div>
+</section>
+
+<!-- Chat Preview -->
+<section class="chat-preview">
+  <h2>AI Assistant Preview</h2>
+  <div class="chat-box">
+    <div class="user-msg">I have chest pain again.</div>
+    <div class="ai-msg">
+      Based on your previous medical history, this may require a cardiology consultation.
+    </div>
+  </div>
+</section>
+
+<!-- Doctor Recommendations -->
+<section class="doctors">
+  <h2>Recommended Specialists</h2>
+
+  <div class="doctor-cards">
+    <div class="doctor">
+      <h4>Cardiologist</h4>
+      <p>City Heart Hospital</p>
+      <span>⭐ 4.5 | 3 km</span>
+    </div>
+
+    <div class="doctor">
+      <h4>Internal Medicine</h4>
+      <p>CarePlus Clinic</p>
+      <span>⭐ 4.3 | 5 km</span>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+</body>
+</html>
